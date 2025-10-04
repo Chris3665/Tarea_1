@@ -27,19 +27,24 @@ Requisitos:
 
 Lógica de la recomendación: 
 1. Producto de alta tecnología:
+   
 -La persona es miembro (isMember === true) y ha comprado al menos 5 productos tecnológicos (purchaseHistory.tech >= 5) antes, o 
+
 -La persona tiene entre 18 y 30 años (18 <= age <= 30) y ha comprado 2 o más productos en total (purchaseHistory.tech + purchaseHistory.fashion + purchaseHistory.other >= 2).
 
-2. Producto de moda:  
+3. Producto de moda:
+   
 -La persona no es miembro (isMember === false) o no ha comprado al menos 3 productos en total (purchaseHistory.tech + purchaseHistory.fashion + purchaseHistory.other < 3).
 
-3. Producto genérico:  La persona tiene entre 25 y 40 años (25 <= age <= 40), o  
+5. Producto genérico:  La persona tiene entre 25 y 40 años (25 <= age <= 40), o  
 Cualquier otro caso no cubierto por las condiciones anteriores.
 
 Código implementado:
+
 El código se encuentra en el archivo recommend.js. 
 
 Explicación del código: 
+
 -La función recommendProduct toma tres parámetros: age, isMember, y purchaseHistory.
 
 -Se calcula totalPurchases sumando las compras en todas las categorías para evaluar las condiciones.
