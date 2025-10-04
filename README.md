@@ -64,11 +64,15 @@ Explicación del código:
 -Los ejemplos de uso imprimen los resultados en la consola para verificar el funcionamiento.
 
 Instrucciones para ejecutar: 
+
 1.Asegúrate de tener Node.js instalado en tu sistema.
+
 2.Crea un archivo llamado recommend.js y copia el código anterior.
+
 3.Abre una terminal en el directorio del archivo y ejecuta:
 
 node recommend.js
+
 
 Observa la salida en la consola con los resultados de los ejemplos.
 
