@@ -21,6 +21,8 @@ Requisitos:
 2. Salida: String con el nivel de riesgo ("High", "Moderate" o "Low").
 
 
+
+
 Lógica de la evaluación:  
 
 
@@ -42,9 +44,13 @@ Lógica de la evaluación:
 
 
 
+
+
 Código implementado:
 
 El código se encuentra en el archivo SistemEvaluacion.js.
+
+
 
 
 Explicación del código:  
