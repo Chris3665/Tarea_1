@@ -14,12 +14,12 @@ Descripción:
 Este proyecto implementa un motor de recomendación de productos en JavaScript con Node.js, basado en la edad del usuario, su estado de membresía y su historial de compras. La función recommendProduct evalúa diferentes criterios para sugerir un producto de alta tecnología, moda o genérico según las condiciones especificadas.
 
 Requisitos:
-1. Entrada: 
--age (número): Edad del usuario.  
--isMember (booleano): Indica si el usuario es miembro.  
--purchaseHistory (objeto): Contiene la cantidad de productos comprados por categoría (tech, fashion, other).
+1. Entrada:
+   -age (número): Edad del usuario.
+   -isMember (booleano): Indica si el usuario es miembro.
+   -purchaseHistory (objeto): Contiene la cantidad de productos comprados por categoría (tech, fashion, other).
 
-2. Salida: String con la recomendación ("High-Tech Product", "Fashion Product", o "Generic Product").
+3. Salida: String con la recomendación ("High-Tech Product", "Fashion Product", o "Generic Product").
 
 
 Lógica de la recomendación: 
