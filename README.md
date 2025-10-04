@@ -72,7 +72,13 @@ Los ejemplos de uso imprimen los resultados en la consola para validar el funcio
 
 
 
+
 ---
+
+
+
+
+
 
 Ejercicio 2: Motor de Recomendación de Productos
 
