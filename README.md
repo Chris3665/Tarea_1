@@ -23,18 +23,24 @@ Requisitos:
 
 Lógica de la evaluación:  
 
-Cliente de alto riesgo:  
+
+1. Cliente de alto riesgo:
+   
 -Ingresos menores a $20,000 y más de 3 pagos atrasados, o  
 
 -Tiene préstamos activos y es estudiante.
 
 2. Cliente de riesgo moderado:
+   
    -Ingresos entre $20,000 y $50,000, y no tiene más de 2 pagos atrasados, o
+   
    -Tiene préstamos pero no es estudiante.
 
-Cliente de bajo riesgo: 
+3. Cliente de bajo riesgo: 
 
 -Si no cumple ninguna de las condiciones anteriores.
+
+
 
 Código implementado:
 
@@ -42,6 +48,7 @@ El código se encuentra en el archivo SistemEvaluacion.js.
 
 
 Explicación del código:  
+
 La función evaluateRisk toma cuatro parámetros: income, hasLoans, latePayments, e isStudent.
 
 Las condiciones se evalúan en orden de prioridad usando if-else if-else:
