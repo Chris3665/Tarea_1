@@ -76,8 +76,7 @@ node recommend.js
 
 Observa la salida en la consola con los resultados de los ejemplos.
 
-Notas:  El código asume que purchaseHistory es un objeto válido con las claves tech, fashion, y other. Para un uso en producción, se podrían agregar validaciones (por ejemplo, verificar que age sea un número positivo).
-Los ejemplos cubren los casos descritos en el enunciado.
+
 
 Autor: Chris
 Fecha: 04 de octubre de 2025, 01:08 AM CST  
