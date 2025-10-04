@@ -6,12 +6,53 @@ Ejercicio 1: Sistema de Evaluación de Riesgo Bancario
 Descripcion:
 Este proyecto implementa un sistema de evaluación de riesgo para clientes bancarios en JavaScript con Node.js, basado en factores como ingresos, cantidad de préstamos activos, pagos atrasados y estado de estudiante. La función evaluateRisk determina el nivel de riesgo ("High", "Moderate" o "Low") según las condiciones especificadas.
 
-Requisitos:  Entrada:  income (número): Ingresos anuales del cliente en dólares.  
-hasLoans (booleano): Indica si el cliente tiene préstamos activos.  
-latePayments (número): Cantidad de pagos atrasados.  
-isStudent (booleano): Indica si el cliente es estudiante.
+Requisitos: 
 
-Salida: String con el nivel de riesgo ("High", "Moderate" o "Low").
+1. Entrada: 
+
+-income (número): Ingresos anuales del cliente en dólares.  
+
+-hasLoans (booleano): Indica si el cliente tiene préstamos activos.
+
+-latePayments (número): Cantidad de pagos atrasados.  
+
+-isStudent (booleano): Indica si el cliente es estudiante.
+
+2. Salida: String con el nivel de riesgo ("High", "Moderate" o "Low").
+
+
+Lógica de la evaluación:  
+
+Cliente de alto riesgo:  
+-Ingresos menores a $20,000 y más de 3 pagos atrasados, o  
+
+-Tiene préstamos activos y es estudiante.
+
+2. Cliente de riesgo moderado:
+   -Ingresos entre $20,000 y $50,000, y no tiene más de 2 pagos atrasados, o
+   -Tiene préstamos pero no es estudiante.
+
+Cliente de bajo riesgo: 
+
+-Si no cumple ninguna de las condiciones anteriores.
+
+Código implementado:
+
+El código se encuentra en el archivo SistemEvaluacion.js.
+
+
+Explicación del código:  
+La función evaluateRisk toma cuatro parámetros: income, hasLoans, latePayments, e isStudent.
+
+Las condiciones se evalúan en orden de prioridad usando if-else if-else:
+
+1. Alto riesgo: Se verifica si los ingresos son menores a $20,000 con más de 3 pagos atrasados, o si el cliente tiene préstamos y es estudiante.
+
+2. Riesgo moderado: Se verifica si los ingresos están entre $20,000 y $50,000 con 2 o menos pagos atrasados, o si tiene préstamos pero no es estudiante.
+
+3. Bajo riesgo: Cualquier caso que no cumpla las condiciones anteriores.
+
+Los ejemplos de uso imprimen los resultados en la consola para validar el funcionamiento.
 
 
 
@@ -75,18 +116,7 @@ Explicación del código:
 
 -Los ejemplos de uso imprimen los resultados en la consola para verificar el funcionamiento.
 
-Instrucciones para ejecutar: 
 
-1.Asegúrate de tener Node.js instalado en tu sistema.
-
-2.Crea un archivo llamado recommend.js y copia el código anterior.
-
-3.Abre una terminal en el directorio del archivo y ejecuta:
-
-node recommend.js
-
-
-Observa la salida en la consola con los resultados de los ejemplos.
 
 
 
