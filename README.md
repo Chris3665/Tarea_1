@@ -32,16 +32,18 @@ Lógica de la recomendación:
 
 -La persona tiene entre 18 y 30 años (18 <= age <= 30) y ha comprado 2 o más productos en total (purchaseHistory.tech + purchaseHistory.fashion + purchaseHistory.other >= 2).
 
-3. Producto de moda:
+2. Producto de moda:
    
 -La persona no es miembro (isMember === false) o no ha comprado al menos 3 productos en total (purchaseHistory.tech + purchaseHistory.fashion + purchaseHistory.other < 3).
 
-5. Producto genérico:  La persona tiene entre 25 y 40 años (25 <= age <= 40), o  
+3. Producto genérico:  La persona tiene entre 25 y 40 años (25 <= age <= 40), o  
 Cualquier otro caso no cubierto por las condiciones anteriores.
+
 
 Código implementado:
 
 El código se encuentra en el archivo recommend.js. 
+
 
 Explicación del código: 
 
