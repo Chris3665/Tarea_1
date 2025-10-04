@@ -3,6 +3,17 @@ Ejercicios 1 y 2
 
 Ejercicio 1: Sistema de Evaluación de Riesgo Bancario
 
+Descripcion:
+Este proyecto implementa un sistema de evaluación de riesgo para clientes bancarios en JavaScript con Node.js, basado en factores como ingresos, cantidad de préstamos activos, pagos atrasados y estado de estudiante. La función evaluateRisk determina el nivel de riesgo ("High", "Moderate" o "Low") según las condiciones especificadas.
+
+Requisitos:  Entrada:  income (número): Ingresos anuales del cliente en dólares.  
+hasLoans (booleano): Indica si el cliente tiene préstamos activos.  
+latePayments (número): Cantidad de pagos atrasados.  
+isStudent (booleano): Indica si el cliente es estudiante.
+
+Salida: String con el nivel de riesgo ("High", "Moderate" o "Low").
+
+
 
 
 ---
