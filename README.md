@@ -15,8 +15,11 @@ Este proyecto implementa un motor de recomendación de productos en JavaScript c
 
 Requisitos:
 1. Entrada:
+
    -age (número): Edad del usuario.
+   
    -isMember (booleano): Indica si el usuario es miembro.
+   
    -purchaseHistory (objeto): Contiene la cantidad de productos comprados por categoría (tech, fashion, other).
 
 3. Salida: String con la recomendación ("High-Tech Product", "Fashion Product", o "Generic Product").
